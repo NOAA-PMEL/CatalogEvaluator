@@ -1,4 +1,4 @@
-# CatalogCleaner
+# CatalogEvaluator
 ## Synopsis
 
 This is the software runs as a web service and can be used to evaluate the quality of netCDF Earth Science data sets.
