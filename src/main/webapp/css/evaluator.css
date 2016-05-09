@@ -1,0 +1,19 @@
+
+h2 {
+    color: #4c7099;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin: 0.8em 0 0.3em 1.5em;
+}
+.evaldate {
+    margin: 0.8em 0 0.3em 2.5em;
+}
+.margin {
+    margin-left: 10%;
+    margin-right: 40%;
+}
+.header-spacing {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}

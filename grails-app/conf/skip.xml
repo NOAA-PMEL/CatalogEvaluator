@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="My UAF Test Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <service name="all" base="" serviceType="compound">
+        <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+        <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+        <service name="wcs" serviceType="WCS" base="/thredds/wcs/" />
+        <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+        <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/" />
+    </service>
+    <property name="regex" value=".*las.*"/>
+    <property name="regex" value=".*examples.*"/>
+    <property name="regex" value=".*Clean.*"/>
+    <property name="regex" value=".*Clean.*"/>
+    <property name="regex" value=".*his_case7_ar0fd.*"/>
+    <catalogRef name="ESRL COBE" xlink:href="http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/COBE/catalog.xml" xlink:title="ESRL COBE"/>
+    <catalogRef name="NISCO skip" xlink:title="NISCO Skip" xlink:href="http://www.ngdc.noaa.gov/thredds/ncisoExamplesCatalog.xml"/>
+    <catalogRef name="ncom skip"  xlink:title="NCOM Skip" xlink:href="http://ecowatch.ncddc.noaa.gov/thredds/catalog/ncom/region1/catalog.xml" />
+    <catalogRef name="ncom skip 2" xlink:title="NCOM 2 Skip" xlink:href="http://ecowatch.ncddc.noaa.gov/thredds/catalog/ncom/region1_old/catalog.xml" />
+</catalog>
