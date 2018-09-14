@@ -9,4 +9,4 @@ UAF is working to build momentum towards the goal of increased data integration 
 
 ## License
 
-MIT
+Public Domain
